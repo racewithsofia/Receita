@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Receita de Omelete</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <title>Receita de Omelete</title>
 </head>
 <body>
     <div>
@@ -12,9 +15,7 @@
         <h1>Receita de Omelete Simples</h1>
         <p>Um prato fácil e rápido, perfeito para qualquer refeição. Esta omelete clássica combina ovos batidos cozidos à perfeição, opcionalmente recheados com sua escolha de queijo, legumes ou carnes.</p>
 
-        <div>
-            <div id="tempo_de_preparo">
-            <div class="tempo">
+        <div class="tempo">
             <h2>Tempo de preparo</h2>
 
             <ul>
@@ -29,9 +30,7 @@
                 </li>
             </ul>
         </div>
-    </div>
 
-        <div id="ingredientes">
         <div class="ingredientes">
             <h2>Ingredientes</h2>
 
@@ -43,63 +42,60 @@
                 <li>Recheios opcionais: queijo, legumes picados, carnes cozidas, ervas.</li>
             </ul>
         </div>
+
+        <hr>
+
+        <div class="modo">
+            <h2>Modo de preparo</h2>
+
+            <ol>
+                <li>
+                    <strong>Bata os ovos:</strong> Em uma tigela, bata os ovos com uma pitada de sal e pimenta até que estejam bem misturados. Você pode adicionar uma colher de sopa de água ou leite para obter uma textura mais fofa.
+                </li>
+                <li>
+                    <strong>Aqueça a frigideira:</strong> Coloque uma frigideira antiaderente em fogo médio e adicione manteiga ou óleo.
+                </li>
+                <li>
+                    <strong>Cozinhe a omelete:</strong> Assim que a manteiga estiver derretida e borbulhando, despeje os ovos. Incline a frigideira para garantir que os ovos cubram uniformemente a superfície.
+                </li>
+                <li>
+                    <strong>Adicione os recheios (opcional):</strong> Quando os ovos começarem a firmar nas bordas, mas ainda estiverem um pouco líquidos no centro, espalhe os recheios escolhidos sobre uma metade da omelete.
+                </li>
+                <li>
+                    <strong>Dobre e sirva:</strong> Enquanto a omelete continua a cozinhar, cuidadosamente levante uma borda e dobre sobre os recheios. Deixe cozinhar por mais um minuto, em seguida, deslize-a para um prato.
+                </li>
+                <li>
+                    <strong>Saboreie:</strong> Sirva quente, com sal e pimenta adicionais, se necessário.
+                </li>
+            </ol>
+        </div>
+
+        <hr>
+
+        <div class="informacoes">
+            <h2>Informações nutricionais</h2>
+
+            <p>A tabela abaixo mostra os valores nutricionais por porção sem os recheios adicionais</p>
+
+            <table>
+                <tr>
+                    <th>Calorias</th>
+                    <td>277Kcal</td>
+                </tr>
+                <tr>
+                    <th>Carboidratos</th>
+                    <td>0g</td>
+                </tr>
+                <tr>
+                    <th>Proteína</th>
+                    <td>20g</td>
+                </tr>
+                <tr>
+                    <th>Gordura</th>
+                    <td>22g</td>
+                </tr>
+            </table>
+        </div>
     </div>
-
-    <hr>
-
-    <div id="modo_de_preparo">
-    <div class="modo">
-        <h2>Modo de preparo</h2>
-
-        <ol>
-            <li>
-                <strong>Bata os ovos:</strong> Em uma tigela, bata os ovos com uma pitada de sal e pimenta até que estejam bem misturados. Você pode adicionar uma colher de sopa de água ou leite para obter uma textura mais fofa.
-            </li>
-            <li>
-                <strong>Aqueça a frigideira:</strong> Coloque uma frigideira antiaderente em fogo médio e adicione manteiga ou óleo.
-            </li>
-            <li>
-                <strong>Cozinhe a omelete:</strong> Assim que a manteiga estiver derretida e borbulhando, despeje os ovos. Incline a frigideira para garantir que os ovos cubram uniformemente a superfície.
-            </li>
-            <li>
-                <strong>Adicione os recheios (opcional):</strong> Quando os ovos começarem a firmar nas bordas, mas ainda estiverem um pouco líquidos no centro, espalhe os recheios escolhidos sobre uma metade da omelete.
-            </li>
-            <li>
-                <strong>Dobre e sirva:</strong> Enquanto a omelete continua a cozinhar, cuidadosamente levante uma borda e dobre sobre os recheios. Deixe cozinhar por mais um minuto, em seguida, deslize-a para um prato.
-            </li>
-            <li>
-                <strong>Saboreie:</strong> Sirva quente, com sal e pimenta adicionais, se necessário.
-            </li>
-        </ol>
-    </div>
-
-    <hr>
-
-    <div id="informacoes_nutricionais">
-    <div class="informacoes">
-        <h2>Informações nutricionais</h2>
-
-        <p>A tabela abaixo mostra os valores nutricionais por porção sem os recheios adicionais</p>
-
-        <table>
-            <tr>
-                <th>Calorias</th>
-                <td>277Kcal</td>
-            </tr>
-            <tr>
-                <th>Carboidratos</th>
-                <td>0g</td>
-            </tr>
-            <tr>
-                <th>Proteína</th>
-                <td>20g</td>
-            </tr>
-            <tr>
-                <th>Gordura</th>
-                <td>22g</td>
-            </tr>
-        </table>
-    </div>
-</div>
 </body>
 </html>
